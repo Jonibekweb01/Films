@@ -1,0 +1,61 @@
+ul {
+  list-style: none;
+  gap: 50px;
+  justify-content: center;
+}
+
+li {
+  height: 100%;
+  width: 350px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: 0.2s ease;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+li:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0px 0px 30px -2px inset white;
+}
+
+.id {
+  display: block;
+  padding: 20px;
+}
+
+.box-title {
+  margin: 0;
+  padding: 0 0 20px 20px;
+}
+
+img {
+  max-width: 357px;
+  width: 100%;
+}
+
+.box {
+  padding: 20px;
+}
+
+.title {
+  font-size: 75px;
+  font-family: fantasy;
+  letter-spacing: 15px;
+  text-align: center;
+  margin: 20px 0 40px;
+}
+select {
+  display: block;
+  margin: 0 auto 20px auto !important;
+  font-size: 30px !important;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 10px;
+}
